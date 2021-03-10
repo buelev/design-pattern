@@ -2,11 +2,11 @@ package com.buelev.design.decorator.v2;
 
 /**
  * description: AbstractDecorator
- * date: 2020-06-09 16:55
+ * date: 2020-06-12 00:10
  * author: buelev
  * version: 1.0
  */
-public abstract class AbstractDecorator extends ABatterCake {
+public abstract class AbstractDecorator extends ABatterCake{
     private ABatterCake aBatterCake;
 
     public AbstractDecorator(ABatterCake aBatterCake) {
@@ -14,12 +14,12 @@ public abstract class AbstractDecorator extends ABatterCake {
     }
 
     @Override
-    public String getDesc() {
-        return aBatterCake.getDesc();
+    public String desc() {
+        return aBatterCake.desc();
     }
 
     @Override
-    public Integer cost() {
+    public int cost() {
         return aBatterCake.cost();
     }
 }

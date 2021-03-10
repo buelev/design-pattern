@@ -2,18 +2,18 @@ package com.buelev.design.decorator.v2;
 
 /**
  * description: BatterCake
- * date: 2020-06-09 16:56
+ * date: 2020-06-12 00:10
  * author: buelev
  * version: 1.0
  */
-public class BatterCake extends ABatterCake {
+public class BatterCake extends ABatterCake{
     @Override
-    public String getDesc() {
+    public String desc() {
         return "煎饼";
     }
 
     @Override
-    public Integer cost() {
+    public int cost() {
         return 8;
     }
 }
